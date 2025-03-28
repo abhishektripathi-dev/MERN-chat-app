@@ -1,0 +1,25 @@
+{
+  "name": "talk-a-tive",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/abhishektripathi-dev/MERN-chat-app#readme",
+  "bugs": {
+    "url": "https://github.com/abhishektripathi-dev/MERN-chat-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishektripathi-dev/MERN-chat-app.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek Tripathi",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
